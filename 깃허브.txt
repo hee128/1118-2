@@ -1,0 +1,17 @@
+1. git add.,git commit -m"1번 커밋"
+1. git add.,git commit -m"2번 커밋"
+
+**git log -oneline
+3.git diff 현재커밋, 1번커밋
+4. git reset 111:111 커밋으로 되돌림 - 그 전에 했던 로그는 다 없어짐
+
+예: 1,2,3,4,5,6 (최신 HEAD)
+5. git revert commit 해시태그         :conflict: 충돌
+
+6.브랜치: 메인 옆에 가지치기
+  main: 6개 파일
+  sub: 6개 파일
+
+7. 브랜치 만들기: git branch subfolder
+
+8. 브랜치 이동: checkout subfolder
